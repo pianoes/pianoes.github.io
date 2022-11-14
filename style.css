@@ -47,6 +47,10 @@
 p {
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
 }
 
 .container1 {
@@ -56,6 +60,7 @@ p {
   margin-bottom: 100px;
   margin-right: 2em;
   margin-left: 2em;
+  text-align: center;
 }
 
 
@@ -66,6 +71,17 @@ p {
   margin-bottom: 100px;
   margin-right: 5em;
   margin-left: 5em;
+  text-align: center;
+}
+
+.container3 {
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 5em;
+  margin-left: 5em;
+  text-align: justify;
 }
 
 
@@ -86,4 +102,20 @@ p {
   height: auto;
   vertical-align: middle;
   border-radius: 5px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
 }
