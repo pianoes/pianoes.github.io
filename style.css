@@ -1,0 +1,57 @@
+@import url(https://use.fontawesome.com/releases/v5.7.0/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css);
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+
+.jumbotron {
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    -45deg,
+    #6eacd0,
+    #be9ee7,
+    #5db69f,
+    #8db5e3,
+    #ce90df
+  );
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+  text-align: center;
+/*  height: 100vh;*/
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container1 {
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+
+.container2 {
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}

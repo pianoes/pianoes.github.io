@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PianoES</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+
+<!-- navigation -->
+ <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="/"><img src="static/logo_black.png" alt="PianoES", style='max-width: 70px;height: 60px;'></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Overview</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://pianoes.online/">Demo</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="/">Dataset</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="/">Paper</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://github.com/nghuiling/pianoes">Code</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br/>
+<br/>
+
+
+<!-- panel -->
+<div class="jumbotron">
+	<div class="container1">
+    <h2 class="display-3"><b>PianoES</b></h2>
+    <h3><b>A Piano Evaluation System for Learning</b></h3><p>
+    Hui Ling Ng, Nicholas Mak, Jonathan Chen, Wanting Xing
+    <p></p>
+    </div>
+ </div>
+<br/>
+
+
+<!-- content -->
+<div class="container2" >
+<h3>Abstract</h3>
+There are many benefits in learning the piano, however it is expensive to take up piano lessons and difficult to self-practice effectively without timely and accurate feedback. As such, a score-informed transcription system, PianoES, is proposed to automatically convert the learners’ piano recordings into score representations for comparison with the reference score to provide feedback on misplayed notes. First, the onset timings of the piano recordings are aligned with the reference score using the dynamic time warping (DTW) algorithm to provide a mapping function. Next, the recordings are transcribed into Musical Instrument Digital Interface (MIDI) representations using the Bytedance piano transcription model and realigned to the reference score using the obtained mapping function. Finally, a sequential algorithm is applied on the aligned MIDI representations to classify the incorrect notes played by the learner. <Explain summary of the results>
+
+
+</div>
+<br><br><br><br>
+
+
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+
+</body>
+</html>
