@@ -44,13 +44,18 @@
 }
 
 
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .container1 {
   font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-right: 1em;
-  margin-left: 1em;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 
 
@@ -63,3 +68,22 @@
   margin-left: 5em;
 }
 
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-gallery > li {
+  flex-basis: 350px; /* width: 350px; */
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
