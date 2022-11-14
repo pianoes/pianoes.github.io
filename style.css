@@ -37,13 +37,20 @@
   }
 }
 
+
+.navbar-nav > li{
+  padding-left:2px;
+  padding-right:2px;
+}
+
+
 .container1 {
   font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 
@@ -52,6 +59,7 @@
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   margin-top: 30px;
   margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 5em;
+  margin-left: 5em;
 }
+
